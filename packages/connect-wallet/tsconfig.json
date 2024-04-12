@@ -2,12 +2,23 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "shared": ["../shared/src/index.ts"],
-      "tsconfig": ["../tsconfig"],
-      "~/*": ["src/*"]
+      "shared": [
+        "../shared/src/index.ts"
+      ],
+      "tsconfig": [
+        "../tsconfig"
+      ],
+      "~/*": [
+        "src/*"
+      ]
     }
   },
-  "include": ["./src"],
-  "exclude": ["./dist", "node_modules"],
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./dist",
+    "node_modules"
+  ],
   "extends": "tsconfig/base.json"
 }

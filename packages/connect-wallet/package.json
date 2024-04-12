@@ -1,6 +1,6 @@
 {
-  "name": "@shopify/connect-wallet",
-  "version": "3.0.1",
+  "name": "@shopify/connect-wallet-deputy",
+  "version": "1.0.1",
   "private": false,
   "license": "MIT",
   "description": "Crypto wallet connection library for Shopify storefronts",
@@ -59,8 +59,8 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "viem": "^1.0.0",
-    "wagmi": "^1.0.0"
+    "viem": "^2.0.0",
+    "wagmi": "^2.0.0"
   },
   "devDependencies": {
     "@storybook/react": "^7.0.0-beta.52",
